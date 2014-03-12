@@ -10,12 +10,12 @@
         <dependency>
             <groupId>com.linchproject</groupId>
             <artifactId>linch-servlet</artifactId>
-            <version>0.1-SNAPSHOT</version>
+            <version>0.1</version>
         </dependency>
         <dependency>
             <groupId>com.linchproject</groupId>
             <artifactId>linch-framework</artifactId>
-            <version>0.1-SNAPSHOT</version>
+            <version>0.1</version>
         </dependency>
     </dependencies>
 
@@ -39,8 +39,9 @@
 
     <repositories>
         <repository>
-            <id>linchproject-snapshots</id>
-            <url>https://github.com/linchproject/mvn-repo/raw/master/snapshots</url>
+            <id>linch-releases</id>
+            <name>Linch Releases Repository</name>
+            <url>https://github.com/linchproject/mvn-repo/raw/master/releases</url>
         </repository>
     </repositories>
 
