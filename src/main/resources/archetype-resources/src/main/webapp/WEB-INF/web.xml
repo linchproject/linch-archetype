@@ -11,6 +11,10 @@
     <servlet>
         <servlet-name>linch-dispatcher</servlet-name>
         <servlet-class>com.linchproject.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>mainApp</param-name>
+            <param-value>${package}</param-value>
+        </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
 
